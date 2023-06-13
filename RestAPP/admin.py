@@ -4,4 +4,4 @@ from RestAPP.models import Products
 
 @admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
-    list_display = ['pid', 'pname', 'category', 'price', 'supplier', 'supplierid']
+    list_display = ['id', 'pname', 'category', 'price', 'supplier', 'supplierid']
